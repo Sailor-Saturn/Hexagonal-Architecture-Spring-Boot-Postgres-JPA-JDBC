@@ -1,0 +1,26 @@
+{
+    "extends": [
+        "airbnb/hooks",
+        "plugin:jest/recommended",
+        "plugin:prettier/recommended",
+        "plugin:react/recommended",
+        "prettier",
+        "prettier/react"
+    ],
+    "plugins": ["react", "jest"],
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true
+    },
+    "rules" : {
+        "no-unused-vars" : 2,
+        "no-undef" : 2,
+        "arrow-parens":"off",
+        "arrow-body-style": "off"
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module"
+    }
+}

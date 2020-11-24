@@ -1,0 +1,14 @@
+{
+    "navBar.sandwiches": "Sanduiches",
+    "sandwichPanel.addToCart": "Adicionar ao carrinho",
+    "cart.order": "Encomendar",
+    "comment.by": "por",
+    "comment.rating": "Avaliado em {value} numa escala de {minimum} a {maximum}",
+    "home.welcome": "Bem vindo ao Gorgeous Food!",
+    "sandwich.type": "Tipo",
+    "sandwich.description": "Descrição",
+    "sandwich.noComments": "Não existem comentários/avaliações",
+    "loading": "A carregar",
+    "error.noSandwich": "Erro: Sanduiche não encontrada",
+    "error.tryAgain": "Erro: Por favor tente novamente"
+}

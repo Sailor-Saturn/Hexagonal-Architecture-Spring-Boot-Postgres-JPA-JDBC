@@ -1,0 +1,22 @@
+.container {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.Cart {
+    border: 1px solid;
+    width: 100%;
+    height: 700px;
+}
+
+.Item {
+    border: 1px solid;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+
+.orderBtnRow {
+    text-align: center;
+}

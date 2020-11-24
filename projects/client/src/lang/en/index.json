@@ -1,0 +1,14 @@
+{
+    "navBar.sandwiches": "Sandwiches",
+    "sandwichPanel.addToCart": "Add to cart",
+    "cart.order": "Order",
+    "comment.by": "by",
+    "comment.rating": "Rated at {value} on a scale from {minimum} to {maximum}",
+    "home.welcome": "Welcome to Gorgeous Food!",
+    "sandwich.type": "Type",
+    "sandwich.description": "Description",
+    "sandwich.noComments": "There are no comments/reviews",
+    "loading": "Loading",
+    "error.noSandwich": "Error: No sandwich found",
+    "error.tryAgain": "Error. Please try again"
+}

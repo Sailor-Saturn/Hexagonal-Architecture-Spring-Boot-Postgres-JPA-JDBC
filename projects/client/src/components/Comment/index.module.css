@@ -1,0 +1,13 @@
+.container {
+  border: 1px solid;
+}
+
+.author {
+  background-color: #CDCDCD;
+  margin-bottom: 10px;
+}
+
+.comment {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}

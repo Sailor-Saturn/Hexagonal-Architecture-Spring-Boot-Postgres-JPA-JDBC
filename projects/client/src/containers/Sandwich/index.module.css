@@ -1,0 +1,29 @@
+.imageContainer {
+  margin-bottom: 30px;
+}
+
+.commentContainer {
+  margin-bottom: 10px;
+}
+
+.noCommentsContainer {
+  border-top: 1px solid;
+  text-align: center;
+}
+
+.loadingContainer {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.errorMessageContainer {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bold;
+  color: red;
+  font-size: 20px;
+}

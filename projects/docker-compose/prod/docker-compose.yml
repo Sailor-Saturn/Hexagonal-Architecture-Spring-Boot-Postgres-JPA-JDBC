@@ -1,0 +1,41 @@
+version: "3.8"
+services:
+    postgres:
+        image: postgres:9.6-alpine
+        container_name: "postgres"
+        environment:
+            - POSTGRES_USER=postgres
+            - POSTGRES_PASSWORD=root
+            - POSTGRES_DB=postgres
+        ports:
+            - 5432:5432
+        volumes:
+            - ../../db-data:/var/lib/postgresql/data
+        networks:
+            - arqsoft
+    backend:
+        image: arqsoft101/server:0.0.1
+        container_name: "backend"
+        #environment:
+        #    - GORGEOUS_FOOD_PERSISTENCE_MODE=jdbc
+        ports:
+            - 8080:8080
+        networks:
+            - arqsoft
+        depends_on:
+            - postgres
+    frontend:
+        image: arqsoft101/client:0.0.1
+        container_name: "frontend"
+        ports:
+            - 3000:3000
+        networks:
+            - arqsoft
+        depends_on:
+            - backend
+networks:
+    arqsoft:
+        name: server-db
+        ipam:
+            config:
+                - subnet: 10.11.0.0/24
